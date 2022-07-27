@@ -24,11 +24,11 @@ table 50151 CustEntryTable
             Caption = 'Posting Date';
             DataClassification = ToBeClassified;
         }
-        field(4; "Document Type"; Option)
+        field(4; "Document Type"; Enum TypeEnum)
         {
             Caption = 'Document Type';
             DataClassification = ToBeClassified;
-            OptionMembers = Invoice,Payment;
+            //OptionMembers = Invoice,Payment;
         }
         field(5; Amount; Decimal)
         {
@@ -50,9 +50,10 @@ table 50151 CustEntryTable
             if (Type = const(Vendors)) Vendor;
         }
 
-        field(8; Type2; Enum TypeEnum)
+        field(8; Type2; Option)
         {
             DataClassification = ToBeClassified;
+            OptionMembers = Blank;
         }
     }
     keys

@@ -50,9 +50,9 @@ page 50152 CustEntryList
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Account Number field.';
                 }
-                field("SomeSHit"; rec.Type2){
-                    ApplicationArea = All;
-                }
+                // field("SomeSHit"; rec.Type2){
+                //     ApplicationArea = All;
+                // }
             }
         }
     }

@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":50200,"Kind":16,"Name":"MyCustCardVer2PageExt","PackagePath":"/src/src/Pag-Ext50200.MyCustCardVer2PageExt.al"},{"Id":50200,"Kind":17,"Name":"MyCustVer2ExtTable","PackagePath":"/src/src/Tab-Ext50200.MyCustVer2ExtTable.al"},{"Id":50200,"Kind":22,"Name":"CustomerClassEnum","PackagePath":"/src/src/Enum50200.CustomerClassEnum.al"}],"Removed":[]}

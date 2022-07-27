@@ -3,6 +3,9 @@
 /// </summary>
 enum 50150 TypeEnum
 {
-    value (0; "SomeKAK"){}
-    value (1; "MoreKAk"){}
+    //modified
+    Extensible = true;
+    value (0; "Invoice"){}
+    value (1; "Credit"){}
+    value (2; "Payment"){}
 }

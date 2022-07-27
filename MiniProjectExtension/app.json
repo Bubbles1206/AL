@@ -1,0 +1,34 @@
+{
+  "id": "2ddddf0f-36bf-4332-919e-a8a6dbc04cb2",
+  "name": "MiniProjectExtension",
+  "publisher": "Jason Extension Part",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    { "id": "818f015e-2902-4809-b167-69c6f3cab455",
+    "name": "MiniProject",
+    "publisher": "Jason BC Train",
+    "version": "1.0.0.0"}
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50350,
+      "to": 50399
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.0"
+}
