@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "al.enableCodeAnalysis": false,
+    "al.codeAnalyzers": [
+        "${CodeCop}", "${PerTenantExtensionCop}"
+    ]
+}
