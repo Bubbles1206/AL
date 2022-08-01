@@ -18,9 +18,10 @@ pageextension 56700 ResourceCardExt extends "Resource Card"
                 ToolTip = 'Quantity per Day.';
             }
         }
+
         addlast(content)
         {
-            group(Room)
+            group(Room) //Fast-Tab
             {
                 field("Maximum Participants"; Rec."Maximum Participants")
                 {

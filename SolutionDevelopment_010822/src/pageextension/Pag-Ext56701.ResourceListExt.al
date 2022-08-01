@@ -3,7 +3,6 @@
 /// </summary>
 pageextension 56701 ResourceListExt extends "Resource List"
 {
-
     layout
     {
         addlast(Control1)
@@ -15,7 +14,6 @@ pageextension 56701 ResourceListExt extends "Resource List"
                 Visible = ShowType;
             }
 
-
             field("MaxParticipants"; Rec."Maximum Participants")
             {
                 ApplicationArea = All;
@@ -23,7 +21,6 @@ pageextension 56701 ResourceListExt extends "Resource List"
                 Visible = ShowMaxParticipants;
             }
         }
-
     }
 
     var
@@ -33,7 +30,6 @@ pageextension 56701 ResourceListExt extends "Resource List"
     var
         [InDataSet]
         ShowMaxParticipants: boolean;
-
 
 
     trigger OnOpenPage()
