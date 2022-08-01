@@ -1,5 +1,5 @@
 /// <summary>
-/// TableExtension MyCustExtendedVer3 (ID 50350) extends Record MyCustVer3.
+/// TableExtension "MyCustExtendedVer3" (ID 50350) extends Record MyCustVer3.
 /// </summary>
 tableextension 50350 MyCustExtendedVer3 extends MyCustVer3
 {

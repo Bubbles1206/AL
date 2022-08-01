@@ -1,5 +1,5 @@
 /// <summary>
-/// Enum MyCustClassType (ID 50350).
+/// Enum "MyCustClassType" (ID 50350).
 /// </summary>
 enum 50350 MyCustClassType
 {

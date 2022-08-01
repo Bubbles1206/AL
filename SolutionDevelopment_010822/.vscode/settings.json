@@ -1,0 +1,5 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.compilationOptions": {},
+    "al.ruleSetPath": "SDApp.RuleSet.json"
+}

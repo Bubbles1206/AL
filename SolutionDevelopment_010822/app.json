@@ -1,0 +1,29 @@
+{
+  "id": "ab498d78-17c8-4232-a6ef-41dd97433e72",
+  "name": "SolutionDevelopment_010822",
+  "publisher": "Jason Kokot",
+  "version": "1.0.0.0",
+  "brief": "Advnaced BC Solutions",
+  "description": "A Business Central SOlutions Development Project",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 56700,
+      "to": 56799
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.0"
+}

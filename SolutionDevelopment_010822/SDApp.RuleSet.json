@@ -1,0 +1,11 @@
+{
+    "name": "Rename File Rule",
+    "description": "Description",
+    "rules": [
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "Justification"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 /// <summary>
-/// PageExtension MyCustVer3ListExt (ID 50350) extends Record MyCustListVer3.
+/// PageExtension "MyCustVer3ListExt" (ID 50350) extends Record MyCustListVer3.
 /// </summary>
 pageextension 50350 MyCustVer3ListExt extends MyCustListVer3
 {
@@ -10,6 +10,7 @@ pageextension 50350 MyCustVer3ListExt extends MyCustListVer3
             
                 field("Customer Class";Rec."Customer Class")
                 {
+                    Caption = 'Customer Class';
                     ToolTip = 'Customer Class field';
                     ApplicationArea = All;
                 }

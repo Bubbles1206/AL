@@ -1,5 +1,5 @@
 /// <summary>
-/// PageExtension MyCustCardVer3Extended (ID 50351) extends Record MyCustCardVer3.
+/// PageExtension "MyCustCardVer3Extended" (ID 50351) extends Record MyCustCardVer3.
 /// </summary>
 pageextension 50351 MyCustCardVer3Extended extends MyCustCardVer3
 {
