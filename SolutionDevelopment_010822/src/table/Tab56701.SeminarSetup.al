@@ -1,11 +1,11 @@
 /// <summary>
-/// Table SeminarSetupTable (ID 56701).
+/// Table Seminar Setup (ID 56701).
 /// </summary>
-table 56701 SeminarSetupTable
+table 56701 "Seminar Setup"
 {
-    Caption = 'SeminarSetupTable';
+    Caption = 'Seminar Setup';
     DataClassification = ToBeClassified;
-    
+
     fields
     {
         field(1; "Primary Key"; Code[10])
@@ -13,20 +13,23 @@ table 56701 SeminarSetupTable
             Caption = 'Primary Key';
             DataClassification = ToBeClassified;
         }
-        field(2; "Seminar Nos."; Code[10])
+        field(2; "Seminar Nos."; Code[20])
         {
             Caption = 'Seminar Nos.';
             DataClassification = ToBeClassified;
+            TableRelation = "No. Series";
         }
-        field(3; "Seminar Registration Number"; Code[10])
+        field(3; "Seminar Registration Nos."; Code[20])
         {
-            Caption = 'Seminar Registration Number';
+            Caption = 'Seminar Registration Nos.';
             DataClassification = ToBeClassified;
+            TableRelation = "No. Series";
         }
-        field(4; "Posted Seminar Reg. Nos"; Code[10])
+        field(4; "Posted Seminar Reg. Nos."; Code[20])
         {
-            Caption = 'Posted Seminar Reg. Nos';
+            Caption = 'Posted Seminar Reg. Nos.';
             DataClassification = ToBeClassified;
+            TableRelation = "No. Series";
         }
     }
     keys

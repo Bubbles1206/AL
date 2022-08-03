@@ -1,36 +1,29 @@
 /// <summary>
-/// PageExtension "ResourceListExt" (ID 56701) extends Record Resource List.
+/// PageExtension ResourceListExt (ID 56702) extends Record Resource List.
 /// </summary>
-pageextension 56701 ResourceListExt extends "Resource List"
+pageextension 56702 "ResourceListExt" extends "Resource List"
 {
     layout
     {
         addlast(Control1)
         {
-            field("Internal/External"; Rec."Internal/External")
+            field(InternalExternal; rec."Internal/External")
             {
                 ApplicationArea = All;
-                ToolTip = 'Is the resource Internal/External?';
+                ToolTip = 'Is the resource an Internal or External Resource.';
                 Visible = ShowType;
             }
-
-            field("MaxParticipants"; Rec."Maximum Participants")
+            field(MaxParticipants; Rec."Maximum Participants")
             {
                 ApplicationArea = All;
-                ToolTip = 'Maximum Particapants';
+                ToolTip = 'The maximum number of participants a room can take.';
                 Visible = ShowMaxParticipants;
             }
         }
     }
-
     var
         [InDataSet]
-        ShowType: boolean;
-
-    var
-        [InDataSet]
-        ShowMaxParticipants: boolean;
-
+        ShowType, ShowMaxParticipants : boolean;
 
     trigger OnOpenPage()
     begin
