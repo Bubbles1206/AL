@@ -1,3 +1,6 @@
+/// <summary>
+/// Table Seminar Comment Line (ID 56704).
+/// </summary>
 table 56704 "Seminar Comment Line"
 {
     // CSD1.00 - 2013-03-01 - D. E. Veloper

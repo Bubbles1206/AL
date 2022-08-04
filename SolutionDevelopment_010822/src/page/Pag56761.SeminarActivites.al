@@ -1,3 +1,6 @@
+/// <summary>
+/// Page Seminar Activites (ID 56761).
+/// </summary>
 page 56761 "Seminar Activites"
 {
     Caption = 'Seminar Activites';

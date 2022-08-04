@@ -1,7 +1,7 @@
 /// <summary>
-/// Unknown "SeminarProfile".
+/// Unknown SeminarProfile.
 /// </summary>
-profile SeminarProfile
+profile "SeminarProfile"
 {
     Caption = 'Seminar Profile';
     Description = 'Seminar Profile for the Seminar Extension.';

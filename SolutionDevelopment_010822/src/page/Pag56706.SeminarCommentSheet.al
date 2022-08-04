@@ -1,3 +1,6 @@
+/// <summary>
+/// Page Seminar Comment Sheet (ID 56706).
+/// </summary>
 page 56706 "Seminar Comment Sheet"
 {
     // CSD1.00 - 2013-03-01 - D. E. Veloper

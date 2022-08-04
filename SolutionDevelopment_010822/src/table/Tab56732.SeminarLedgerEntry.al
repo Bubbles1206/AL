@@ -15,9 +15,9 @@ table 56732 "Seminar Ledger Entry"
         // {
         //     Caption = 'Journal Template Name';
         // }
-        field(1; "Line No."; Integer)
+        field(1; "Entry No."; Integer)
         {
-            Caption = 'Line No.';
+            Caption = 'Entry No.';
         }
         field(2; "Seminar No."; Code[20])
         {
@@ -138,24 +138,24 @@ table 56732 "Seminar Ledger Entry"
             Caption = 'No. Series';
             TableRelation = "No. Series";
         }
-        field(28; UserID; Code[10])
+        field(28; "User ID"; Code[20])
         {
             Caption = 'User ID';
             TableRelation = User."User Name";
 
-            trigger OnValidate()
-            begin  
-                // UserMgt.LookupUserID("UserId");
-            end;
-            // ASK BERNY!
-            // ValidateTableRelation =
-            // TestTableRelation
+            // trigger OnValidate()
+            // begin  
+            //     // UserMgt.LookupUserID("UserId");
+            // end;
+            // // ASK BERNY!
+            // // ValidateTableRelation =
+            // // TestTableRelation
         }
     }
 
     keys
     {
-        key(Key1; "Line No.")
+        key(Key1; "Entry No.")
         {
             Clustered = true;
         }

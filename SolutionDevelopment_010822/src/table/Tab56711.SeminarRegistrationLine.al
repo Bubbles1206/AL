@@ -1,3 +1,6 @@
+/// <summary>
+/// Table Seminar Registration Line (ID 56711).
+/// </summary>
 table 56711 "Seminar Registration Line"
 {
     // CSD1.00 - 2013-03-01 - D. E. Veloper

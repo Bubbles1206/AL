@@ -1,3 +1,6 @@
+/// <summary>
+/// Table Seminar Charge (ID 56712).
+/// </summary>
 table 56712 "Seminar Charge"
 {
     // CSD1.00 - 2013-03-01 - D. E. Veloper
