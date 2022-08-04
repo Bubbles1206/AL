@@ -190,11 +190,11 @@ table 56711 "Seminar Registration Line"
 
     var
         SeminarRegistrationHeader: Record "Seminar Registration Header";
-        SeminarRegistrationLine: Record "Seminar Registration Line";
+        //SeminarRegistrationLine: Record "Seminar Registration Line";
         ContactBusinessRelation: Record "Contact Business Relation";
         Contact: Record Contact;
         GeneralLedgerSetup: Record "General Ledger Setup";
-        SkipBillToContact: Boolean;
+        //SkipBillToContact: Boolean;
         Text001Err: Label 'You cannot change the %1, because %2 is %3.', Comment = '%1 comment %2 comment %3 comment';
         Text002Err: Label 'Contact %1 %2 is related to a different company than customer %3.', Comment = '%1 comment %2 comment %3 comment';
 
