@@ -110,6 +110,13 @@ page 56760 "Seminar Role Center"
                 RunObject = page "Seminar List";
                 ToolTip = 'View or create some training courses for us.';
             }
+            action(Test)
+            {
+                ApplicationArea = All;
+                Caption = 'Test';
+                Image = BookingsLogo;
+                RunObject = codeunit "ExcelExport.al";
+            }
         }
     }
 }
